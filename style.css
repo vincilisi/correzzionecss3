@@ -1,0 +1,84 @@
+/*Barra di ricerca*/
+.Logo{
+    width: 150px;
+    margin-top: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.link{
+    color: #585c7b;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.link:hover{
+    color: #949292;
+    border-bottom: 2px solid black;
+}
+
+/*Header*/
+
+header{
+    background-color: #585c7b;
+    height: 500px;
+    display: flex;
+    text-align: center;
+}
+h1{
+    margin-left: 350px;
+}
+
+/*ezione Articoli*/
+
+h2{
+    text-align: center;
+}
+
+main{
+    display: flex ;
+}
+
+.imgArt{
+    width: 400px;
+}
+.contArt{
+    display: flex;
+    width: 60%;
+}
+
+aside{
+    background-color: #949292;
+}
+/*footer*/
+
+.icons{
+    margin-left: 97%;
+    width: 50px;
+    animation-name: Icons;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    top: 200px;
+}
+
+
+@keyframes Icons {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
